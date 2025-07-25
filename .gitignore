@@ -1,0 +1,61 @@
+# Ignore all .pyc and __pycache__ directories
+*.py[cod]
+__pycache__/
+
+# VSCode specific files and folders
+.vscode/
+*.code-workspace
+
+# Editorconfig is generally a good idea to include as it helps maintain consistent formatting across editors
+.editorconfig
+
+# Python build artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+.Python
+
+# Pytest cache
+.pytest_cache/
+
+# IPython notebook files
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Python virtual environments
+venv/
+env/
+.venv/
+.python-version
+
+# Jupyter notebooks and outputs
+*.ipynb_checkpoints/
+.ipynb.metadata/
+.celltags
+
+# IDE specific files (e.g., IntelliJ, PyCharm)
+.idea/
+out/
+
+# Node.js directories if you accidentally include them
+node_modules/
+package-lock.json
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# hydra outputs
+outputs/
